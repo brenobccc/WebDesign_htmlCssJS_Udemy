@@ -1,0 +1,60 @@
+<!doctype html>
+<!--  DOCTYPE informa a versao do html que deve ser rendezirada-->
+<html lang="pt-br">
+    <head>
+        <title>exemplo estrut basica</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="lista de documentos">
+        <meta name="heywords" content="html5, tecnologia">
+
+        <style>
+            li ul{
+                height: 0;
+                overflow: hidden;
+                transition: height 0.5s;
+            }
+
+            li:hover{
+                background: #ccc;
+            }
+
+            li:hover ul{
+                display: block;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- lista aninhada -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2
+                <ul>
+                    <li>item 2.1</li>
+                    <li>item 2.2</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ul>
+        <hr>
+        <!-- lista de definicao-->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcacao de hipertexto</dd>
+
+            <dt>CSS</dt>
+            <dd>Linguagem para a criação de folhas e estilos</dd>
+        </dl>
+
+        <hr>
+        <dl>
+            <dt>www</dt>
+            <dt>internet</dt>
+            <dd>rede mundial de computadores</dd>
+            <dt>Javascript</dt>
+            <dd>Linguagem script para internet</dd>
+            <dd>Script para rodar no browser</dd>
+        </dl>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<!--  DOCTYPE informa a versao do html que deve ser rendezirada-->
+<html lang="pt-br">
+
+<head>
+    <title>exemplo estrut basica</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniel">
+    <meta name="description" content="lista de documentos">
+    <meta name="heywords" content="html5, tecnologia">
+
+    <style>
+        body{
+            font-family: sans-serif;
+
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+     
+        th{
+            background-color: red;
+            border: 2px solid chocolate;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Tabela de preço de cursos. </caption>
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a altera;os sem previo aviso</td>
+
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="3">Design</td>
+                <td>InDesign</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+          
+                <td>Illustrator</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+              
+                <td>Photoshop</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Development</td>
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+              
+                <td>CSS</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                
+                <td>JS</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+          
+                <td>PHP</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+
+</html>
